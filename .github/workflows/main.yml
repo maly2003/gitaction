@@ -11,5 +11,4 @@ jobs:
 #    - name: checkout repository
 #      uses: actions/checkout@v2
     - name: run bash script
-      run: |
-        docker run --rm -it ubuntu:latest bash -c "echo 'Yuriy Malanyuk'"
+      run: echo Yuriy Malanyuk
