@@ -11,4 +11,4 @@ jobs:
 #    - name: checkout repository
 #      uses: actions/checkout@v2
     - name: run bash script
-      run: bash script.sh
+      run: bash ${GITHUB_WORKSPACE}/script.sh
