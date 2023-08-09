@@ -5,11 +5,11 @@ on:
       - main
   workflow_dispatch:
 jobs:
-  display_name_job:
+  display_my_name_job:
     runs-on: ubuntu-latest
     steps:
-    - name: checkout repository
-      uses: actions/checkout@v2
+#    - name: checkout repository
+#      uses: actions/checkout@v2
     - name: run bash script
       run: |
         chmod +x script.sh
