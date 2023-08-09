@@ -6,7 +6,7 @@ on:
       - main
   workflow_dispatch:
 jobs:
-  display_name: main job
+#  display_name: main job
     runs-on: ubuntu-latest
     steps:
     - name: checkout repository
